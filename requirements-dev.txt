@@ -1,0 +1,30 @@
+# Development and high-quality dependencies
+
+# Include all base requirements
+-r requirements.txt
+
+# Advanced speaker diarization
+pyannote.audio>=3.0.0
+speechbrain>=0.5.0
+scikit-learn>=1.0.0
+
+# Audio enhancement
+noisereduce>=3.0.0
+pydub>=0.25.0
+
+# Voice Activity Detection
+webrtcvad>=2.0.10
+
+# Real-time recording (requires system audio drivers)
+pyaudio>=0.2.11
+
+# Development tools
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.0.0
+
+# Documentation
+sphinx>=6.0.0
+sphinx-rtd-theme>=1.2.0

@@ -1,0 +1,147 @@
+# ============================================
+# SENSITIVE LEGAL DATA - NEVER COMMIT
+# ============================================
+
+# Transcription outputs with case data
+depositions/
+depositions_hq/
+transcriptions/
+output/
+temp/
+
+# Audio files
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.wma
+*audio*
+
+# Transcript files
+*transcript*.txt
+*transcript*.doc
+*transcript*.docx
+*transcript*.pdf
+*_details_*.csv
+*_data_*.json
+*validation_report*.txt
+
+# Case-specific patterns
+*24CF*
+*DUFFIE*
+*Duffy*
+*Hollis*
+*Martin*
+*deposition*
+*witness*
+*testimony*
+
+# Temporary processing files
+temp_audio.wav
+preprocessed_audio.wav
+*.tmp
+*.temp
+
+# ============================================
+# API KEYS AND CREDENTIALS
+# ============================================
+.env
+.env.local
+.env.*.local
+config.json
+credentials.json
+*token*
+*api_key*
+*secret*
+
+# ============================================
+# PYTHON
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# OS FILES
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# EDITOR
+# ============================================
+*.swp
+*.swo
+*~
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# LOGS AND DATABASES
+# ============================================
+*.log
+*.sql
+*.sqlite
+*.db
+
+# ============================================
+# BACKUP FILES
+# ============================================
+*.bak
+*.backup
+*.old
+*.orig
+
+# ============================================
+# CLAUDE.md (contains case-specific info)
+# ============================================
+CLAUDE.md
