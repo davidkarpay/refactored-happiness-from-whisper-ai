@@ -1,0 +1,24 @@
+# High-Confidence Transcription Dependencies
+
+# Core dependencies (already in requirements.txt)
+openai-whisper
+torch>=2.0.0
+torchaudio
+numpy
+librosa
+soundfile
+
+# Additional dependencies for high-confidence mode
+scipy  # For signal processing and filters
+webrtcvad  # For Voice Activity Detection
+pyannote.audio>=3.0.0  # For advanced speaker diarization
+speechbrain  # For speaker embeddings
+scikit-learn  # For clustering algorithms
+
+# Optional but recommended
+noisereduce  # For advanced noise reduction
+pydub  # For audio format conversions
+
+# Development/Testing
+pytest
+pytest-cov

@@ -145,3 +145,6 @@ Desktop.ini
 # CLAUDE.md (contains case-specific info)
 # ============================================
 CLAUDE.md
+
+# Claude Code settings
+.claude/
